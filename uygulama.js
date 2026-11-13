@@ -414,7 +414,7 @@ function sayfaAcil() {
     <div class="uyari" style="margin-top:16px"><h2>UYARI!</h2><p>Kaya tırmanışı tehlikeli bir spordur.Sizin veya çevrenizdekilerin ciddi şekilde yaralanmasına ya da ölümüne nedenolabilir.Yeterli deneyim,bilgi,hazırlık,antrenman ve ekipman olmadan tırmanılmamalıdır</p></div>
     <h2 class="bolum-baslik">Rehberin son sayfası</h2>
     <div class="fotolar">${fotoDugmesi("img/s25.jpg", "Rehberin son sayfası: destekçiler, acil numaralar ve uyarı")}</div>
-    <div class="kunye-alt"><p>Yazan: Serhat ALKIVILCIM</p><p>Fotoğraf: Serhat ALKIVILCIM, Murat ALAN</p><p>Tasarım: Sinan ŞAŞMAZ</p></div>`;
+    <div class="kunye-alt"><p>Yazan: Serhat ALKIVILCIM</p><p>Fotoğraf: Serhat ALKIVILCIM, Murat ALAN</p><p>Tasarım: Sinan ŞAŞMAZ</p><p class="uygulama-kunye">Uygulama: Mustafa Güngördü</p></div>`;
 }
 
 function sayfaResimler(baslik, resimler, geri = "#/") {

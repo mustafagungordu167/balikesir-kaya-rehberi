@@ -200,6 +200,7 @@ img { max-width: 100%; display: block; }
 .ara-dugme span { font-size: 14px; }
 .ara-dugme svg { width: 26px; height: 26px; }
 .kunye-alt { padding: 16px 20px; color: var(--soluk); font-size: 14px; display: grid; gap: 6px; }
+.uygulama-kunye { margin-top: 8px; padding-top: 12px; border-top: 1px solid var(--cizgi); }
 
 /* Fotoğraf büyütme */
 .foto { position: fixed; inset: 0; z-index: 50; background: #000; display: flex; flex-direction: column; }
