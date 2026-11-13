@@ -1,0 +1,16 @@
+{
+  "name": "Balıkesir Kaya Tırmanış Rehberi",
+  "short_name": "Kaya Tırmanış",
+  "description": "Balıkesir Kaya Tırmanış Rehberi: rotalar, dereceler ve kişisel tırmanış defteri.",
+  "lang": "tr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1F1D1B",
+  "theme_color": "#1F1D1B",
+  "icons": [
+    { "src": "ikon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "ikon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

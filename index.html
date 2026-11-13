@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Balıkesir Kaya Tırmanış Rehberi</title>
+<meta name="description" content="Balıkesir Kaya Tırmanış Rehberi: rotalar, dereceler ve kişisel tırmanış defteri.">
+<meta name="theme-color" content="#1F1D1B">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Kaya Tırmanış">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="ikon-192.png">
+<link rel="apple-touch-icon" href="ikon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="stil.css">
+</head>
+<body>
+<main id="ekran" tabindex="-1"></main>
+<nav class="sekmeler" aria-label="Ana menü">
+  <a class="sekme" href="#/" data-sekme="rehber"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20 9 6l4 8 3-5 5 11z"/></svg><span>Rehber</span></a>
+  <a class="sekme" href="#/defter" data-sekme="defter"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"/><path d="M9 9h6M9 13h6"/></svg><span>Defterim</span></a>
+  <a class="sekme" href="#/sozluk" data-sekme="sozluk"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6v.6M12 17.5v.01"/></svg><span>Sözlük</span></a>
+  <a class="sekme" href="#/acil" data-sekme="acil"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 20h20z"/><path d="M12 10v4M12 17v.01"/></svg><span>Acil</span></a>
+</nav>
+<div id="foto" class="foto" hidden role="dialog" aria-modal="true" aria-label="Fotoğraf">
+  <div class="foto-kaydir"><img alt=""></div>
+  <div class="foto-dugmeler">
+    <button type="button" data-zoom="-1" aria-label="Uzaklaştır">−</button>
+    <button type="button" data-zoom="1" aria-label="Yakınlaştır">+</button>
+    <button type="button" class="foto-kapat" aria-label="Kapat">Kapat</button>
+  </div>
+</div>
+<div id="bildiri" class="bildiri" role="status" aria-live="polite"></div>
+<script src="veri.js"></script>
+<script src="uygulama.js"></script>
+</body>
+</html>
